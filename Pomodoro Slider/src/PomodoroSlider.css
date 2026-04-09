@@ -1,5 +1,6 @@
 .pomodoro-card-outer {
-  width: 460px;
+  width: 100%;
+  max-width: 460px;
   height: 300px;
   padding: 4px;
   border-radius: 20px;
@@ -142,4 +143,84 @@
   line-height: 1.1;
   width: 100%;
   user-select: none;
+}
+
+@media (max-width: 640px) {
+  .pomodoro-card-outer {
+    height: clamp(248px, 70vw, 300px);
+    padding: 3px;
+    border-radius: 18px;
+  }
+
+  .pomodoro-card-inner {
+    border-radius: 15px;
+    padding: 18px;
+  }
+
+  .timer-display {
+    font-size: clamp(32px, 10.5vw, 40px);
+    letter-spacing: -0.03em;
+  }
+
+  .play-btn-inner {
+    width: 34px;
+    height: 34px;
+  }
+
+  .slider-section {
+    gap: 14px;
+  }
+}
+
+@media (max-width: 420px) {
+  .pomodoro-card-inner {
+    padding: 16px 16px 14px;
+  }
+
+  .top-row {
+    align-items: center;
+  }
+
+  .timer-display {
+    font-size: clamp(28px, 10vw, 34px);
+  }
+
+  .slider-section {
+    gap: 12px;
+  }
+
+  .slider-track {
+    height: 32px;
+  }
+
+  .slider-labels {
+    font-size: 9px;
+  }
+}
+
+@media (max-width: 360px) {
+  .pomodoro-card-outer {
+    height: 236px;
+  }
+
+  .pomodoro-card-inner {
+    padding: 14px 14px 12px;
+  }
+
+  .timer-display {
+    font-size: 26px;
+  }
+
+  .play-btn-inner {
+    width: 30px;
+    height: 30px;
+  }
+
+  .slider-section {
+    gap: 10px;
+  }
+
+  .slider-track {
+    height: 28px;
+  }
 }

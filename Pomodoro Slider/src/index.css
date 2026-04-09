@@ -6,6 +6,7 @@
 
 html,
 body {
+  width: 100%;
   margin: 0;
   padding: 0;
 }
@@ -17,12 +18,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 24px;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 #root {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+@media (min-width: 641px) {
+  body {
+    padding: 16px;
+  }
 }
