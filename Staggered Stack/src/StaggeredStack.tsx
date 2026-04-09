@@ -11,6 +11,8 @@ type Config = {
   height: number
   step: number
   maxPush: number
+  maxPushY: number
+  verticalDeadZone: number
   falloff: number
   src: string
 }
@@ -25,6 +27,8 @@ const CONFIGS: Record<StackVariant, Config> = {
     height: 160,
     step: 20,
     maxPush: 50,
+    maxPushY: 0,
+    verticalDeadZone: 0,
     falloff: 90,
     src: squareShape,
   },
@@ -32,12 +36,11 @@ const CONFIGS: Record<StackVariant, Config> = {
     count: 30,
     width: 198,
     height: 93,
-    step: 18,
-    maxPush: 48,
-    // Falloff scales with step (54 = 36 × 18/12) so the 5-layer bulge
-    // profile is preserved: peak at cursor Y, smoothly falling off across
-    // ±2 shapes on each side.
-    falloff: 54,
+    step: 12,
+    maxPush: 32,
+    maxPushY: 22,
+    verticalDeadZone: 10,
+    falloff: 60,
     src: circleShape,
   },
 }
@@ -45,14 +48,27 @@ const CONFIGS: Record<StackVariant, Config> = {
 const LERP = 0.22
 const REST_EPSILON = 0.05
 
+const smootherstep = (t: number) => t * t * t * (t * (t * 6 - 15) + 10)
+
 export function StaggeredStack({ variant }: { variant: StackVariant }) {
-  const { count, width, height, step, maxPush, falloff, src } =
-    CONFIGS[variant]
+  const {
+    count,
+    width,
+    height,
+    step,
+    maxPush,
+    maxPushY,
+    verticalDeadZone,
+    falloff,
+    src,
+  } = CONFIGS[variant]
 
   const stackRef = useRef<HTMLDivElement>(null)
   const layerRefs = useRef<Array<HTMLImageElement | null>>([])
   const targets = useRef<number[]>(new Array(count).fill(0))
   const currents = useRef<number[]>(new Array(count).fill(0))
+  const targetsY = useRef<number[]>(new Array(count).fill(0))
+  const currentsY = useRef<number[]>(new Array(count).fill(0))
   const rafId = useRef<number | null>(null)
 
   const ensureRunning = () => {
@@ -64,17 +80,28 @@ export function StaggeredStack({ variant }: { variant: StackVariant }) {
         const tgt = targets.current[i]
         const next = cur + (tgt - cur) * LERP
         currents.current[i] = next
+        const curY = currentsY.current[i]
+        const tgtY = targetsY.current[i]
+        const nextY = curY + (tgtY - curY) * LERP
+        currentsY.current[i] = nextY
         const el = layerRefs.current[i]
-        if (el) el.style.setProperty('--dx', `${next}px`)
-        if (Math.abs(tgt - next) > REST_EPSILON) stillMoving = true
+        if (el) {
+          el.style.setProperty('--dx', `${next}px`)
+          el.style.setProperty('--dy', `${nextY}px`)
+        }
+        if (Math.abs(tgt - next) > REST_EPSILON || Math.abs(tgtY - nextY) > REST_EPSILON) stillMoving = true
       }
       if (stillMoving) {
         rafId.current = requestAnimationFrame(tick)
       } else {
         for (let i = 0; i < count; i++) {
           currents.current[i] = targets.current[i]
+          currentsY.current[i] = targetsY.current[i]
           const el = layerRefs.current[i]
-          if (el) el.style.setProperty('--dx', `${targets.current[i]}px`)
+          if (el) {
+            el.style.setProperty('--dx', `${targets.current[i]}px`)
+            el.style.setProperty('--dy', `${targetsY.current[i]}px`)
+          }
         }
         rafId.current = null
       }
@@ -114,15 +141,26 @@ export function StaggeredStack({ variant }: { variant: StackVariant }) {
       const layerCenterY = rect.top + i * step + height / 2
       const absDy = Math.abs(mouseY - layerCenterY)
       const t = Math.max(0, 1 - absDy / falloff)
-      const eased = t * t * t * (t * (t * 6 - 15) + 10) // smootherstep
+      const eased = smootherstep(t)
       targets.current[i] = dirX * eased * maxPush
+
+      if (dirX === 0 || maxPushY === 0 || absDy <= verticalDeadZone) {
+        targetsY.current[i] = 0
+        continue
+      }
+
+      const dirY = layerCenterY >= mouseY ? 1 : -1
+      targetsY.current[i] = dirY * eased * maxPushY
     }
 
     ensureRunning()
   }
 
   const handlePointerLeave = () => {
-    for (let i = 0; i < count; i++) targets.current[i] = 0
+    for (let i = 0; i < count; i++) {
+      targets.current[i] = 0
+      targetsY.current[i] = 0
+    }
     ensureRunning()
   }
 
