@@ -1,0 +1,4299 @@
+{
+  "version": "2.10",
+  "children": [
+    {
+      "type": "frame",
+      "id": "iLujk",
+      "x": -219.1204588910132,
+      "y": -100,
+      "name": "State - 1",
+      "clip": true,
+      "width": 1200,
+      "height": 800,
+      "fill": "#fafafaff",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1
+      },
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "IYSJe",
+          "x": 370,
+          "y": 250,
+          "name": "Frame 132",
+          "clip": true,
+          "width": 460,
+          "height": 300,
+          "fill": "#f5f5f5ff",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 0.8,
+            "fill": "#0000001a"
+          },
+          "layout": "vertical",
+          "gap": 10,
+          "padding": 4,
+          "children": [
+            {
+              "type": "frame",
+              "id": "aDPKa",
+              "name": "Frame 48",
+              "clip": true,
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "#ffffffff",
+              "cornerRadius": 16,
+              "stroke": {
+                "align": "inside",
+                "thickness": 0.6,
+                "fill": "#0000001a"
+              },
+              "layout": "vertical",
+              "gap": 228,
+              "padding": 20,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "gdhPm",
+                  "name": "Frame 131",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 243,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "peiXA",
+                      "name": "00:00",
+                      "fill": "#00000033",
+                      "content": "00:00",
+                      "lineHeight": 1.100000023841858,
+                      "textAlignVertical": "middle",
+                      "fontFamily": "Inter",
+                      "fontSize": 40,
+                      "fontWeight": "500",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "frame",
+                      "id": "Xx81X",
+                      "name": "Frame 133",
+                      "clip": true,
+                      "fill": "#f5f5f5ff",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 0.5,
+                        "fill": "#0000000d"
+                      },
+                      "gap": 10,
+                      "padding": 2,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "R6XTp",
+                          "name": "Frame 42",
+                          "clip": true,
+                          "width": "fit_content(36)",
+                          "height": "fit_content(36)",
+                          "fill": "#ffffffff",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 0.4,
+                            "fill": "#0000001a"
+                          },
+                          "gap": 10,
+                          "padding": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "n18Vn",
+                              "layoutPosition": "absolute",
+                              "x": 9,
+                              "y": 8,
+                              "name": "play",
+                              "clip": true,
+                              "width": 20,
+                              "height": 20,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1
+                              },
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "path",
+                                  "id": "rIkDi",
+                                  "x": 4.166666507720947,
+                                  "y": 2.391047477722168,
+                                  "name": "Icon",
+                                  "geometry": "M0 2.12037c0-0.97116 0-1.45675 0.20249-1.72442 0.1764-0.23319 0.44603-0.37749 0.73791-0.39491 0.33504-0.02 0.73907 0.24935 1.54712 0.78805l10.51556 7.01037c0.66769 0.44512 1.00153 0.66769 1.11786 0.94821 0.10171 0.24525 0.10171 0.52089 0 0.76614-0.11633 0.28052-0.45018 0.50309-1.11786 0.94821l-10.51556 7.01038c-0.80806 0.5387-1.21208 0.80805-1.54712 0.78805-0.29188-0.01743-0.5615-0.16173-0.73791-0.39492-0.20249-0.26767-0.20249-0.75325-0.20249-1.72441l0-14.02075z",
+                                  "fill": "#e0e0e0ff",
+                                  "width": 11.831019401550293,
+                                  "height": 15.217906951904297,
+                                  "stroke": {
+                                    "align": "center",
+                                    "thickness": 1.399999976158142,
+                                    "join": "round",
+                                    "cap": "round"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "d9yKC",
+                  "name": "Frame 134",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "88e9I",
+                      "name": "Frame 53",
+                      "width": "fill_container",
+                      "height": 16,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "gap": 4,
+                      "justifyContent": "space_between",
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "oD8iy",
+                          "name": "Frame 49",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aPnkv",
+                          "name": "Frame 63",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "0mCwm",
+                          "name": "Frame 77",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "SazDM",
+                          "name": "Frame 91",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "tJN1o",
+                          "name": "Frame 50",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "5oFBI",
+                          "name": "Frame 64",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "lN0SE",
+                          "name": "Frame 78",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "6leiu",
+                          "name": "Frame 92",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bg7i4",
+                          "name": "Frame 51",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "eCSef",
+                          "name": "Frame 65",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "sB4CE",
+                          "name": "Frame 79",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "XtZTR",
+                          "name": "Frame 93",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Lgzy0",
+                          "name": "Frame 52",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "VAaNK",
+                          "name": "Frame 66",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Rl0r1",
+                          "name": "Frame 80",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "dbWLv",
+                          "name": "Frame 94",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "JMGdk",
+                          "name": "Frame 53",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "fwpAh",
+                          "name": "Frame 67",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "niCui",
+                          "name": "Frame 81",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "NmOvJ",
+                          "name": "Frame 95",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "R0MQ9",
+                          "name": "Frame 54",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IruW0",
+                          "name": "Frame 68",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "9NXmq",
+                          "name": "Frame 82",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "wlDli",
+                          "name": "Frame 96",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "tYFhH",
+                          "name": "Frame 55",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "sLxJf",
+                          "name": "Frame 69",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DNbuz",
+                          "name": "Frame 83",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "XRZrO",
+                          "name": "Frame 97",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "cQAUT",
+                          "name": "Frame 56",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xf2Se",
+                          "name": "Frame 70",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "hjNk9",
+                          "name": "Frame 84",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "NfVr3",
+                          "name": "Frame 98",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "BUTjp",
+                          "name": "Frame 57",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "JESor",
+                          "name": "Frame 71",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DwHRw",
+                          "name": "Frame 85",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "7c9Ht",
+                          "name": "Frame 99",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "fSEFm",
+                          "name": "Frame 58",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "QlTJD",
+                          "name": "Frame 72",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "iSzFC",
+                          "name": "Frame 86",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "j9Ymc",
+                          "name": "Frame 100",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "p1EQr",
+                          "name": "Frame 59",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "5bgxc",
+                          "name": "Frame 73",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "cnWka",
+                          "name": "Frame 87",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Z0L95",
+                          "name": "Frame 101",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "7BjiW",
+                          "name": "Frame 60",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "T1avq",
+                          "name": "Frame 74",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zGyvl",
+                          "name": "Frame 88",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bJNOO",
+                          "name": "Frame 102",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "dGOwz",
+                          "name": "Frame 61",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "RW1VQ",
+                          "name": "Frame 75",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "yVTuL",
+                          "name": "Frame 89",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "7kB76",
+                          "name": "Frame 103",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "cAtjB",
+                          "name": "Frame 62",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "hFcFy",
+                          "name": "Frame 117",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "FvFi3",
+                          "name": "Frame 118",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "PlUda",
+                          "name": "Frame 119",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "yosj9",
+                          "name": "Frame 120",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "JTp7V",
+                          "name": "Frame 121",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "tnAsD",
+                          "name": "Frame 122",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "WREhI",
+                          "name": "Frame 123",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "U8ORO",
+                          "name": "Frame 124",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "XjjPF",
+                          "name": "Frame 125",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "MgdAu",
+                          "name": "Frame 126",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "2ZxM0",
+                          "name": "Frame 127",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "c9vMI",
+                          "name": "Frame 128",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "QYaJw",
+                          "name": "Frame 129",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "VG82P",
+                          "name": "Frame 76",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qq4TR",
+                          "name": "Frame 105",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "sCCtW",
+                          "name": "Frame 108",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "X4MXP",
+                          "name": "Frame 111",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "OWwXk",
+                          "name": "Frame 114",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "2MigE",
+                          "name": "Frame 90",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "UeZNN",
+                          "name": "Frame 106",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Fjqun",
+                          "name": "Frame 109",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "EmOWL",
+                          "name": "Frame 130",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "8xTRZ",
+                          "name": "Frame 112",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "3TeSC",
+                          "name": "Frame 115",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "O9JHV",
+                          "name": "Frame 104",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "4Yx1z",
+                          "name": "Frame 107",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qEURS",
+                          "name": "Frame 116",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "eZQLl",
+                      "name": "Frame 132",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "gap": 243,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "3tR44",
+                          "name": "min",
+                          "fill": "#0000004d",
+                          "content": "min",
+                          "lineHeight": 1.100000023841858,
+                          "textAlignVertical": "middle",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal",
+                          "letterSpacing": -0.1
+                        },
+                        {
+                          "type": "text",
+                          "id": "1l2uc",
+                          "name": "max",
+                          "fill": "#0000004d",
+                          "content": "max",
+                          "lineHeight": 1.100000023841858,
+                          "textAlignVertical": "middle",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal",
+                          "letterSpacing": -0.1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "c98aZ",
+      "x": 1064,
+      "y": -100,
+      "name": "State - 2",
+      "clip": true,
+      "width": 1200,
+      "height": 800,
+      "fill": "#fafafaff",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1
+      },
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "SoS3s",
+          "x": 370,
+          "y": 250,
+          "name": "Frame 132",
+          "clip": true,
+          "width": 460,
+          "height": 300,
+          "fill": "#f5f5f5ff",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 0.8,
+            "fill": "#0000001a"
+          },
+          "layout": "vertical",
+          "gap": 10,
+          "padding": 4,
+          "children": [
+            {
+              "type": "frame",
+              "id": "FrIAj",
+              "name": "Frame 48",
+              "clip": true,
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "#ffffffff",
+              "cornerRadius": 16,
+              "stroke": {
+                "align": "inside",
+                "thickness": 0.6,
+                "fill": "#0000001a"
+              },
+              "layout": "vertical",
+              "gap": 228,
+              "padding": [
+                16,
+                20
+              ],
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "0YMPb",
+                  "name": "Frame 131",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 243,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "FFVkO",
+                      "name": "00:25",
+                      "fill": "#000000e5",
+                      "content": "00:25",
+                      "lineHeight": 1.100000023841858,
+                      "textAlignVertical": "middle",
+                      "fontFamily": "Inter",
+                      "fontSize": 40,
+                      "fontWeight": "500",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "frame",
+                      "id": "SWnwT",
+                      "name": "Frame 133",
+                      "clip": true,
+                      "fill": "#f5f5f5ff",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 0.5,
+                        "fill": "#0000000d"
+                      },
+                      "gap": 10,
+                      "padding": 2,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "o6QDM",
+                          "name": "Frame 42",
+                          "clip": true,
+                          "width": "fit_content(36)",
+                          "height": "fit_content(36)",
+                          "fill": "#ffffffff",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 0.4,
+                            "fill": "#0000001a"
+                          },
+                          "gap": 10,
+                          "padding": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "R5ALN",
+                              "layoutPosition": "absolute",
+                              "x": 9,
+                              "y": 8,
+                              "name": "play",
+                              "clip": true,
+                              "width": 20,
+                              "height": 20,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1
+                              },
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "path",
+                                  "id": "7jJ8z",
+                                  "x": 4.166666507720947,
+                                  "y": 2.391047477722168,
+                                  "name": "Icon",
+                                  "geometry": "M0 2.12037c0-0.97116 0-1.45675 0.20249-1.72442 0.1764-0.23319 0.44603-0.37749 0.73791-0.39491 0.33504-0.02 0.73907 0.24935 1.54712 0.78805l10.51556 7.01037c0.66769 0.44512 1.00153 0.66769 1.11786 0.94821 0.10171 0.24525 0.10171 0.52089 0 0.76614-0.11633 0.28052-0.45018 0.50309-1.11786 0.94821l-10.51556 7.01038c-0.80806 0.5387-1.21208 0.80805-1.54712 0.78805-0.29188-0.01743-0.5615-0.16173-0.73791-0.39492-0.20249-0.26767-0.20249-0.75325-0.20249-1.72441l0-14.02075z",
+                                  "fill": "#e0e0e0ff",
+                                  "width": 11.831019401550293,
+                                  "height": 15.217906951904297,
+                                  "stroke": {
+                                    "align": "center",
+                                    "thickness": 1.399999976158142,
+                                    "join": "round",
+                                    "cap": "round"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "tbDf1",
+                  "name": "Frame 134",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "JM8tC",
+                      "name": "Frame 53",
+                      "width": "fill_container",
+                      "height": 16,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "gap": 4,
+                      "justifyContent": "space_between",
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "gOzSt",
+                          "name": "Frame 49",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "YSWFA",
+                          "name": "Frame 63",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "mKJXa",
+                          "name": "Frame 77",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IKbWE",
+                          "name": "Frame 91",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xUUGa",
+                          "name": "Frame 50",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "KIedn",
+                          "name": "Frame 64",
+                          "clip": true,
+                          "width": 1.5,
+                          "height": 18,
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zbbCE",
+                          "name": "Frame 78",
+                          "clip": true,
+                          "width": 1.5,
+                          "height": 20,
+                          "fill": "#0000004d",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "4gMZi",
+                          "name": "Frame 92",
+                          "clip": true,
+                          "width": 1.5,
+                          "height": 24,
+                          "fill": "#00000066",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "kVZij",
+                          "name": "Frame 51",
+                          "clip": true,
+                          "width": 1.5,
+                          "height": 28,
+                          "fill": "#00000080",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "uUTda",
+                          "name": "Frame 65",
+                          "clip": true,
+                          "width": 1.5,
+                          "height": 32,
+                          "fill": "#000000b2",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "VhTgV",
+                          "name": "Frame 79",
+                          "clip": true,
+                          "width": 1.5,
+                          "height": 28,
+                          "fill": "#00000080",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "toz92",
+                          "name": "Frame 93",
+                          "clip": true,
+                          "width": 1.5,
+                          "height": 24,
+                          "fill": "#00000066",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nulSx",
+                          "name": "Frame 52",
+                          "clip": true,
+                          "width": 1.5,
+                          "height": 20,
+                          "fill": "#0000004d",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "AnoBU",
+                          "name": "Frame 66",
+                          "clip": true,
+                          "width": 1.5,
+                          "height": 18,
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "9kuv2",
+                          "name": "Frame 80",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "67aCH",
+                          "name": "Frame 94",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "afRZs",
+                          "name": "Frame 53",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "3Sgh4",
+                          "name": "Frame 67",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "MJ8Xo",
+                          "name": "Frame 81",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "KyvTp",
+                          "name": "Frame 95",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "8hnYm",
+                          "name": "Frame 54",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IN3Ld",
+                          "name": "Frame 68",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "6EtWz",
+                          "name": "Frame 82",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "l1bZI",
+                          "name": "Frame 96",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "cKIyM",
+                          "name": "Frame 55",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "SZm8L",
+                          "name": "Frame 69",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "OCdVh",
+                          "name": "Frame 83",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "AEoc1",
+                          "name": "Frame 97",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "oN1uP",
+                          "name": "Frame 56",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "1mnJy",
+                          "name": "Frame 70",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "dJgpY",
+                          "name": "Frame 84",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "lbBHN",
+                          "name": "Frame 98",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IQjCx",
+                          "name": "Frame 57",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "I8E5D",
+                          "name": "Frame 71",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "JFa4K",
+                          "name": "Frame 85",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "6m3IK",
+                          "name": "Frame 99",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ApHyp",
+                          "name": "Frame 58",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "VQv2g",
+                          "name": "Frame 72",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "3Qsja",
+                          "name": "Frame 86",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TyPg0",
+                          "name": "Frame 100",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "lV9iJ",
+                          "name": "Frame 59",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "q4gAH",
+                          "name": "Frame 73",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "98viz",
+                          "name": "Frame 87",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "DWdoe",
+                          "name": "Frame 101",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "E7KnS",
+                          "name": "Frame 60",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "CpuXP",
+                          "name": "Frame 74",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "14pAE",
+                          "name": "Frame 88",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "epumi",
+                          "name": "Frame 102",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "fNHJ7",
+                          "name": "Frame 61",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "VxdUG",
+                          "name": "Frame 75",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ikrwk",
+                          "name": "Frame 89",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "2VgDE",
+                          "name": "Frame 103",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "glUTy",
+                          "name": "Frame 62",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "8CkFR",
+                          "name": "Frame 117",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Um1SM",
+                          "name": "Frame 118",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "9ZVDo",
+                          "name": "Frame 119",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Ymx3z",
+                          "name": "Frame 120",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zwOO9",
+                          "name": "Frame 121",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "nDapc",
+                          "name": "Frame 122",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zHITV",
+                          "name": "Frame 123",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "093fX",
+                          "name": "Frame 124",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "BnyeY",
+                          "name": "Frame 125",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "yiULB",
+                          "name": "Frame 126",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "2PfsM",
+                          "name": "Frame 127",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "BPz4Z",
+                          "name": "Frame 128",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "8lBXh",
+                          "name": "Frame 129",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "udXoj",
+                          "name": "Frame 76",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "02BGF",
+                          "name": "Frame 105",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "oPSbx",
+                          "name": "Frame 108",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZGv6s",
+                          "name": "Frame 111",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ubGGb",
+                          "name": "Frame 114",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TFK6U",
+                          "name": "Frame 90",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "WJzML",
+                          "name": "Frame 106",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ddiXE",
+                          "name": "Frame 109",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "MEf3L",
+                          "name": "Frame 130",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "aPCl8",
+                          "name": "Frame 112",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "QXPvH",
+                          "name": "Frame 115",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "8sYCu",
+                          "name": "Frame 104",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "9I0An",
+                          "name": "Frame 107",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "q4ggR",
+                          "name": "Frame 116",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "lLwQd",
+                      "name": "Frame 132",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "gap": 243,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YYQxo",
+                          "name": "min",
+                          "fill": "#00000033",
+                          "content": "min",
+                          "lineHeight": 1.100000023841858,
+                          "textAlignVertical": "middle",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal",
+                          "letterSpacing": -0.1
+                        },
+                        {
+                          "type": "text",
+                          "id": "asfJh",
+                          "name": "max",
+                          "fill": "#00000033",
+                          "content": "max",
+                          "lineHeight": 1.100000023841858,
+                          "textAlignVertical": "middle",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal",
+                          "letterSpacing": -0.1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "XtgLo",
+          "x": 426,
+          "y": 483,
+          "name": "Cursor/Pointer",
+          "clip": true,
+          "width": 40,
+          "height": 40,
+          "fill": {
+            "type": "color",
+            "color": "#ffffffff",
+            "enabled": false
+          },
+          "stroke": {
+            "align": "inside",
+            "thickness": 1.6666667461395264
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "group",
+              "id": "yjYyb",
+              "x": 8.94389820098877,
+              "y": 7.311318874359131,
+              "name": "pointing",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000080",
+                "offset": {
+                  "x": 0,
+                  "y": 1.6666667461395264
+                },
+                "blur": 1.1666667014360428
+              },
+              "children": [
+                {
+                  "type": "path",
+                  "id": "ki092",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Shape",
+                  "geometry": "M2.90366 11.89321c-0.28-0.36-0.63-1.09-1.24-2-0.35-0.5-1.21-1.45-1.47-1.94-0.18743-0.29777-0.24181-0.66034-0.15-1 0.15696-0.64579 0.76956-1.07418 1.43-1 0.5108 0.10261 0.98022 0.35297 1.35 0.72 0.25818 0.24317 0.49567 0.50742 0.71 0.79 0.16 0.2 0.2 0.28 0.38 0.51 0.18 0.23 0.3 0.46 0.21 0.12-0.07-0.5-0.19-1.34-0.36-2.09-0.13-0.57-0.16-0.66-0.28-1.09-0.12-0.43-0.19-0.79-0.32-1.28-0.11883-0.48143-0.2123-0.96877-0.28-1.46-0.12605-0.6283-0.03435-1.28079 0.26-1.85 0.34939-0.32863 0.86193-0.41537 1.3-0.22 0.4406 0.32534 0.7691 0.77965 0.94 1.3 0.26207 0.64039 0.43696 1.31306 0.52 2 0.16 1 0.47 2.46 0.48 2.76 0-0.37-0.07-1.15 0-1.5 0.06935-0.36488 0.32296-0.66769 0.67-0.8 0.29781-0.09137 0.61285-0.11192 0.92-0.06 0.31004 0.06482 0.58466 0.24315 0.77 0.5 0.23168 0.58339 0.36026 1.2026 0.38 1.83 0.02678-0.54941 0.12081-1.09347 0.28-1.62 0.1671-0.23545 0.41113-0.40521 0.69-0.48 0.33059-0.06044 0.66941-0.06044 1 0 0.27109 0.09063 0.50824 0.26152 0.68 0.49 0.21177 0.53035 0.33996 1.09034 0.38 1.66 0 0.14 0.07-0.39 0.29-0.74 0.11432-0.3394 0.40103-0.59203 0.75213-0.66273 0.35109-0.07069 0.71323 0.05129 0.95 0.32 0.23677 0.26871 0.3122 0.64332 0.19787 0.98273 0 0.65 0 0.62 0 1.06 0 0.44 0 0.83 0 1.2-0.03644 0.58518-0.11666 1.16681-0.24 1.74-0.17403 0.50712-0.41625 0.9882-0.72 1.43-0.48555 0.53996-0.88674 1.15018-1.19 1.81-0.07524 0.3278-0.10884 0.66379-0.1 1-0.001 0.31063 0.03935 0.62002 0.12 0.92-0.40886 0.04322-0.82114 0.04322-1.23 0-0.39-0.06-0.87-0.84-1-1.08-0.06432-0.12887-0.19597-0.2103-0.34-0.2103-0.14403 0-0.27568 0.08143-0.34 0.2103-0.22 0.38-0.71 1.07-1.05 1.11-0.67 0.08-2.05 0-3.14 0 0 0 0.18-1-0.23-1.36-0.41-0.36-0.83-0.78-1.14-1.06l-0.84-0.96z",
+                  "fill": "#ffffffff",
+                  "width": 23.99354362487793,
+                  "height": 25.51460838317871,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1.6666667461395264
+                  }
+                },
+                {
+                  "type": "path",
+                  "id": "TRcA6",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Shape",
+                  "geometry": "M2.90366 11.89321c-0.28-0.36-0.63-1.09-1.24-2-0.35-0.5-1.21-1.45-1.47-1.94-0.18743-0.29777-0.24181-0.66034-0.15-1 0.15696-0.64579 0.76956-1.07418 1.43-1 0.5108 0.10261 0.98022 0.35297 1.35 0.72 0.25818 0.24317 0.49567 0.50742 0.71 0.79 0.16 0.2 0.2 0.28 0.38 0.51 0.18 0.23 0.3 0.46 0.21 0.12-0.07-0.5-0.19-1.34-0.36-2.09-0.13-0.57-0.16-0.66-0.28-1.09-0.12-0.43-0.19-0.79-0.32-1.28-0.11883-0.48143-0.2123-0.96877-0.28-1.46-0.12605-0.6283-0.03435-1.28079 0.26-1.85 0.34939-0.32863 0.86193-0.41537 1.3-0.22 0.4406 0.32534 0.7691 0.77965 0.94 1.3 0.26207 0.64039 0.43696 1.31306 0.52 2 0.16 1 0.47 2.46 0.48 2.76 0-0.37-0.07-1.15 0-1.5 0.06935-0.36488 0.32296-0.66769 0.67-0.8 0.29781-0.09137 0.61285-0.11192 0.92-0.06 0.31004 0.06482 0.58466 0.24315 0.77 0.5 0.23168 0.58339 0.36026 1.2026 0.38 1.83 0.02678-0.54941 0.12081-1.09347 0.28-1.62 0.1671-0.23545 0.41113-0.40521 0.69-0.48 0.33059-0.06044 0.66941-0.06044 1 0 0.27109 0.09063 0.50824 0.26152 0.68 0.49 0.21177 0.53035 0.33996 1.09034 0.38 1.66 0 0.14 0.07-0.39 0.29-0.74 0.11432-0.3394 0.40103-0.59203 0.75213-0.66273 0.35109-0.07069 0.71323 0.05129 0.95 0.32 0.23677 0.26871 0.3122 0.64332 0.19787 0.98273 0 0.65 0 0.62 0 1.06 0 0.44 0 0.83 0 1.2-0.03644 0.58518-0.11666 1.16681-0.24 1.74-0.17403 0.50712-0.41625 0.9882-0.72 1.43-0.48555 0.53996-0.88674 1.15018-1.19 1.81-0.07524 0.3278-0.10884 0.66379-0.1 1-0.001 0.31063 0.03935 0.62002 0.12 0.92-0.40886 0.04322-0.82114 0.04322-1.23 0-0.39-0.06-0.87-0.84-1-1.08-0.06432-0.12887-0.19597-0.2103-0.34-0.2103-0.14403 0-0.27568 0.08143-0.34 0.2103-0.22 0.38-0.71 1.07-1.05 1.11-0.67 0.08-2.05 0-3.14 0 0 0 0.18-1-0.23-1.36-0.41-0.36-0.83-0.78-1.14-1.06l-0.84-0.96z",
+                  "fillRule": "evenodd",
+                  "width": 23.99354362487793,
+                  "height": 25.51460838317871,
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1.25,
+                    "join": "round",
+                    "cap": "round",
+                    "fill": "#000000ff"
+                  }
+                },
+                {
+                  "type": "path",
+                  "id": "cE85l",
+                  "x": 17.722768783569336,
+                  "y": 14.355348587036133,
+                  "name": "Shape",
+                  "geometry": "M0.75 3.82589l0-3.45178c0-0.20661-0.16789-0.37411-0.375-0.37411-0.20711 0-0.375 0.16749-0.375 0.37411l0 3.45178c0 0.20662 0.16789 0.37411 0.375 0.37411 0.20711 0 0.375-0.16749 0.375-0.37411z",
+                  "fill": "#000000ff",
+                  "width": 1.25,
+                  "height": 7,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1.6666667461395264
+                  }
+                },
+                {
+                  "type": "path",
+                  "id": "sjT67",
+                  "x": 14.389435768127441,
+                  "y": 14.355348587036133,
+                  "name": "Shape",
+                  "geometry": "M0.76999 3.82463l-0.02-3.45356c-0.00119-0.20612-0.17005-0.37225-0.37715-0.37106-0.2071 0.00119-0.37403 0.16925-0.37283 0.37536l0.02 3.45356c0.00119 0.20612 0.17005 0.37225 0.37715 0.37106 0.2071-0.00119 0.37403-0.16925 0.37283-0.37536z",
+                  "fill": "#000000ff",
+                  "width": 1.2833330631256104,
+                  "height": 6.999999046325684,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1.6666667461395264
+                  }
+                },
+                {
+                  "type": "path",
+                  "id": "l0vyu",
+                  "x": 11.056102752685547,
+                  "y": 14.355348587036133,
+                  "name": "Shape",
+                  "geometry": "M0.00001 0.37899l0.02 3.44641c0.00121 0.20809 0.17008 0.3758 0.37718 0.37459 0.2071-0.00121 0.37401-0.17089 0.3728-0.37898l-0.02-3.44641c-0.00121-0.20809-0.17008-0.3758-0.37718-0.37459-0.2071 0.00121-0.37401 0.17089-0.3728 0.37898z",
+                  "fill": "#000000ff",
+                  "width": 1.2833335399627686,
+                  "height": 6.999999046325684,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1.6666667461395264
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "type": "frame",
+      "id": "uxtYH",
+      "x": 2347,
+      "y": -100,
+      "name": "State - 3",
+      "clip": true,
+      "width": 1200,
+      "height": 800,
+      "fill": "#fafafaff",
+      "stroke": {
+        "align": "inside",
+        "thickness": 1
+      },
+      "layout": "none",
+      "children": [
+        {
+          "type": "frame",
+          "id": "iIv3H",
+          "x": 370,
+          "y": 250,
+          "name": "Frame 132",
+          "clip": true,
+          "width": 460,
+          "height": 300,
+          "fill": "#f5f5f5ff",
+          "cornerRadius": 20,
+          "stroke": {
+            "align": "inside",
+            "thickness": 0.8,
+            "fill": "#0000001a"
+          },
+          "layout": "vertical",
+          "gap": 10,
+          "padding": 4,
+          "children": [
+            {
+              "type": "frame",
+              "id": "tHOci",
+              "name": "Frame 48",
+              "clip": true,
+              "width": "fill_container",
+              "height": "fill_container",
+              "fill": "#ffffffff",
+              "cornerRadius": 16,
+              "stroke": {
+                "align": "inside",
+                "thickness": 0.6,
+                "fill": "#0000001a"
+              },
+              "layout": "vertical",
+              "gap": 228,
+              "padding": 20,
+              "justifyContent": "space_between",
+              "children": [
+                {
+                  "type": "frame",
+                  "id": "M0fFR",
+                  "name": "Frame 131",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "gap": 243,
+                  "justifyContent": "space_between",
+                  "children": [
+                    {
+                      "type": "text",
+                      "id": "nZJ8C",
+                      "name": "00:00",
+                      "fill": "#000000e6",
+                      "content": "10:00",
+                      "lineHeight": 1.100000023841858,
+                      "textAlignVertical": "middle",
+                      "fontFamily": "Inter",
+                      "fontSize": 40,
+                      "fontWeight": "500",
+                      "letterSpacing": -0.4
+                    },
+                    {
+                      "type": "frame",
+                      "id": "RMvKg",
+                      "name": "Frame 133",
+                      "clip": true,
+                      "fill": "#f5f5f5ff",
+                      "cornerRadius": 999,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 0.5,
+                        "fill": "#0000000d"
+                      },
+                      "gap": 10,
+                      "padding": 2,
+                      "alignItems": "center",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "2wSii",
+                          "name": "Frame 42",
+                          "clip": true,
+                          "width": "fit_content(36)",
+                          "height": "fit_content(36)",
+                          "fill": "#fafafa",
+                          "cornerRadius": 999,
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 0.4,
+                            "fill": "#0000001a"
+                          },
+                          "gap": 10,
+                          "padding": 8,
+                          "alignItems": "center",
+                          "children": [
+                            {
+                              "type": "frame",
+                              "id": "5rC2A",
+                              "layoutPosition": "absolute",
+                              "x": 9,
+                              "y": 8,
+                              "name": "play",
+                              "clip": true,
+                              "width": 20,
+                              "height": 20,
+                              "stroke": {
+                                "align": "inside",
+                                "thickness": 1
+                              },
+                              "layout": "none",
+                              "children": [
+                                {
+                                  "type": "path",
+                                  "id": "38Vee",
+                                  "x": 4.166666507720947,
+                                  "y": 2.391047477722168,
+                                  "name": "Icon",
+                                  "geometry": "M0 2.12037c0-0.97116 0-1.45675 0.20249-1.72442 0.1764-0.23319 0.44603-0.37749 0.73791-0.39491 0.33504-0.02 0.73907 0.24935 1.54712 0.78805l10.51556 7.01037c0.66769 0.44512 1.00153 0.66769 1.11786 0.94821 0.10171 0.24525 0.10171 0.52089 0 0.76614-0.11633 0.28052-0.45018 0.50309-1.11786 0.94821l-10.51556 7.01038c-0.80806 0.5387-1.21208 0.80805-1.54712 0.78805-0.29188-0.01743-0.5615-0.16173-0.73791-0.39492-0.20249-0.26767-0.20249-0.75325-0.20249-1.72441l0-14.02075z",
+                                  "fill": "#565656ff",
+                                  "width": 11.831019401550293,
+                                  "height": 15.217906951904297,
+                                  "stroke": {
+                                    "align": "center",
+                                    "thickness": 1.399999976158142,
+                                    "join": "round",
+                                    "cap": "round"
+                                  }
+                                }
+                              ]
+                            }
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "frame",
+                  "id": "4xJB1",
+                  "name": "Frame 134",
+                  "width": "fill_container",
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1
+                  },
+                  "layout": "vertical",
+                  "gap": 16,
+                  "children": [
+                    {
+                      "type": "frame",
+                      "id": "lZyE1",
+                      "name": "Frame 53",
+                      "width": "fill_container",
+                      "height": 16,
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "gap": 4,
+                      "justifyContent": "space_between",
+                      "alignItems": "end",
+                      "children": [
+                        {
+                          "type": "frame",
+                          "id": "8nmiI",
+                          "name": "Frame 49",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "h7bSz",
+                          "name": "Frame 63",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "07aAw",
+                          "name": "Frame 77",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "6MFl1",
+                          "name": "Frame 91",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "4CY2s",
+                          "name": "Frame 50",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "LW43C",
+                          "name": "Frame 64",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "s4vuc",
+                          "name": "Frame 78",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "SvCPQ",
+                          "name": "Frame 92",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "hYei2",
+                          "name": "Frame 51",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "b59kk",
+                          "name": "Frame 65",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "28u3u",
+                          "name": "Frame 79",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "JRCyD",
+                          "name": "Frame 93",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Uftec",
+                          "name": "Frame 52",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "X6xuf",
+                          "name": "Frame 66",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "057im",
+                          "name": "Frame 80",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "qTF1M",
+                          "name": "Frame 94",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "KDW12",
+                          "name": "Frame 53",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "jS3RF",
+                          "name": "Frame 67",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "JVjDB",
+                          "name": "Frame 81",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "lJfmK",
+                          "name": "Frame 95",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "ZIVTO",
+                          "name": "Frame 54",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "O8axU",
+                          "name": "Frame 68",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "JnDTT",
+                          "name": "Frame 82",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "3lusq",
+                          "name": "Frame 96",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bHRv7",
+                          "name": "Frame 55",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xu6Do",
+                          "name": "Frame 69",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "fDols",
+                          "name": "Frame 83",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "5PwxZ",
+                          "name": "Frame 97",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "I0TWQ",
+                          "name": "Frame 56",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "yFOuy",
+                          "name": "Frame 70",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "c2iYA",
+                          "name": "Frame 84",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "LSA3E",
+                          "name": "Frame 98",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Oj0E5",
+                          "name": "Frame 57",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "vArTQ",
+                          "name": "Frame 71",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "4JLey",
+                          "name": "Frame 85",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "er0UW",
+                          "name": "Frame 99",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Qo94V",
+                          "name": "Frame 58",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "14PO8",
+                          "name": "Frame 72",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "pTLZ5",
+                          "name": "Frame 86",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "cxMcn",
+                          "name": "Frame 100",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "3mHnU",
+                          "name": "Frame 59",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "gYiEV",
+                          "name": "Frame 73",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "02GvP",
+                          "name": "Frame 87",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Bw2d6",
+                          "name": "Frame 101",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Nbb0i",
+                          "name": "Frame 60",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "mGxMf",
+                          "name": "Frame 74",
+                          "clip": true,
+                          "width": 1.5,
+                          "height": 32,
+                          "fill": "#00000066",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "7Fprz",
+                          "name": "Frame 88",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "RpwWT",
+                          "name": "Frame 102",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "zjsaT",
+                          "name": "Frame 61",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IENNn",
+                          "name": "Frame 75",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "gDmK4",
+                          "name": "Frame 89",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "LoLtS",
+                          "name": "Frame 103",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "m57YZ",
+                          "name": "Frame 62",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "3edLF",
+                          "name": "Frame 117",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "eSihI",
+                          "name": "Frame 118",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "tTPDm",
+                          "name": "Frame 119",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "cF5rW",
+                          "name": "Frame 120",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "uL5tl",
+                          "name": "Frame 121",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "uTueQ",
+                          "name": "Frame 122",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "vEeND",
+                          "name": "Frame 123",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "dWI0J",
+                          "name": "Frame 124",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "gHNMy",
+                          "name": "Frame 125",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "yKKmJ",
+                          "name": "Frame 126",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "XoO08",
+                          "name": "Frame 127",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "IQpDa",
+                          "name": "Frame 128",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "bQOPC",
+                          "name": "Frame 129",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "NZTMf",
+                          "name": "Frame 76",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "eSO6y",
+                          "name": "Frame 105",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "xzDM0",
+                          "name": "Frame 108",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "b7mdC",
+                          "name": "Frame 111",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "msRnb",
+                          "name": "Frame 114",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "TQ4sZ",
+                          "name": "Frame 90",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "GVoaX",
+                          "name": "Frame 106",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "6Z48N",
+                          "name": "Frame 109",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "jXO3i",
+                          "name": "Frame 130",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "Jg6L4",
+                          "name": "Frame 112",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "raITX",
+                          "name": "Frame 115",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "E39Yi",
+                          "name": "Frame 104",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "v9p6Y",
+                          "name": "Frame 107",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        },
+                        {
+                          "type": "frame",
+                          "id": "lCm3n",
+                          "name": "Frame 116",
+                          "clip": true,
+                          "width": 1,
+                          "height": "fill_container",
+                          "fill": "#00000033",
+                          "stroke": {
+                            "align": "inside",
+                            "thickness": 1
+                          },
+                          "layout": "none"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "frame",
+                      "id": "HghVk",
+                      "name": "Frame 132",
+                      "width": "fill_container",
+                      "stroke": {
+                        "align": "inside",
+                        "thickness": 1
+                      },
+                      "gap": 243,
+                      "justifyContent": "space_between",
+                      "children": [
+                        {
+                          "type": "text",
+                          "id": "YTHYJ",
+                          "name": "min",
+                          "fill": "#0000004d",
+                          "content": "min",
+                          "lineHeight": 1.100000023841858,
+                          "textAlignVertical": "middle",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal",
+                          "letterSpacing": -0.1
+                        },
+                        {
+                          "type": "text",
+                          "id": "9VAHN",
+                          "name": "max",
+                          "fill": "#0000004d",
+                          "content": "max",
+                          "lineHeight": 1.100000023841858,
+                          "textAlignVertical": "middle",
+                          "fontFamily": "Inter",
+                          "fontSize": 10,
+                          "fontWeight": "normal",
+                          "letterSpacing": -0.1
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "frame",
+          "id": "EZgbf",
+          "x": 770,
+          "y": 290,
+          "name": "Cursor/Pointer",
+          "clip": true,
+          "width": 40,
+          "height": 40,
+          "fill": {
+            "type": "color",
+            "color": "#ffffffff",
+            "enabled": false
+          },
+          "stroke": {
+            "align": "inside",
+            "thickness": 1.6666667461395264
+          },
+          "layout": "none",
+          "children": [
+            {
+              "type": "group",
+              "id": "ZJXPq",
+              "x": 8.94389820098877,
+              "y": 7.311318874359131,
+              "name": "pointing",
+              "effect": {
+                "type": "shadow",
+                "shadowType": "outer",
+                "color": "#00000080",
+                "offset": {
+                  "x": 0,
+                  "y": 1.6666667461395264
+                },
+                "blur": 1.1666667014360428
+              },
+              "children": [
+                {
+                  "type": "path",
+                  "id": "qRcvf",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Shape",
+                  "geometry": "M2.90366 11.89321c-0.28-0.36-0.63-1.09-1.24-2-0.35-0.5-1.21-1.45-1.47-1.94-0.18743-0.29777-0.24181-0.66034-0.15-1 0.15696-0.64579 0.76956-1.07418 1.43-1 0.5108 0.10261 0.98022 0.35297 1.35 0.72 0.25818 0.24317 0.49567 0.50742 0.71 0.79 0.16 0.2 0.2 0.28 0.38 0.51 0.18 0.23 0.3 0.46 0.21 0.12-0.07-0.5-0.19-1.34-0.36-2.09-0.13-0.57-0.16-0.66-0.28-1.09-0.12-0.43-0.19-0.79-0.32-1.28-0.11883-0.48143-0.2123-0.96877-0.28-1.46-0.12605-0.6283-0.03435-1.28079 0.26-1.85 0.34939-0.32863 0.86193-0.41537 1.3-0.22 0.4406 0.32534 0.7691 0.77965 0.94 1.3 0.26207 0.64039 0.43696 1.31306 0.52 2 0.16 1 0.47 2.46 0.48 2.76 0-0.37-0.07-1.15 0-1.5 0.06935-0.36488 0.32296-0.66769 0.67-0.8 0.29781-0.09137 0.61285-0.11192 0.92-0.06 0.31004 0.06482 0.58466 0.24315 0.77 0.5 0.23168 0.58339 0.36026 1.2026 0.38 1.83 0.02678-0.54941 0.12081-1.09347 0.28-1.62 0.1671-0.23545 0.41113-0.40521 0.69-0.48 0.33059-0.06044 0.66941-0.06044 1 0 0.27109 0.09063 0.50824 0.26152 0.68 0.49 0.21177 0.53035 0.33996 1.09034 0.38 1.66 0 0.14 0.07-0.39 0.29-0.74 0.11432-0.3394 0.40103-0.59203 0.75213-0.66273 0.35109-0.07069 0.71323 0.05129 0.95 0.32 0.23677 0.26871 0.3122 0.64332 0.19787 0.98273 0 0.65 0 0.62 0 1.06 0 0.44 0 0.83 0 1.2-0.03644 0.58518-0.11666 1.16681-0.24 1.74-0.17403 0.50712-0.41625 0.9882-0.72 1.43-0.48555 0.53996-0.88674 1.15018-1.19 1.81-0.07524 0.3278-0.10884 0.66379-0.1 1-0.001 0.31063 0.03935 0.62002 0.12 0.92-0.40886 0.04322-0.82114 0.04322-1.23 0-0.39-0.06-0.87-0.84-1-1.08-0.06432-0.12887-0.19597-0.2103-0.34-0.2103-0.14403 0-0.27568 0.08143-0.34 0.2103-0.22 0.38-0.71 1.07-1.05 1.11-0.67 0.08-2.05 0-3.14 0 0 0 0.18-1-0.23-1.36-0.41-0.36-0.83-0.78-1.14-1.06l-0.84-0.96z",
+                  "fill": "#ffffffff",
+                  "width": 23.99354362487793,
+                  "height": 25.51460838317871,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1.6666667461395264
+                  }
+                },
+                {
+                  "type": "path",
+                  "id": "QepJI",
+                  "x": 0,
+                  "y": 0,
+                  "name": "Shape",
+                  "geometry": "M2.90366 11.89321c-0.28-0.36-0.63-1.09-1.24-2-0.35-0.5-1.21-1.45-1.47-1.94-0.18743-0.29777-0.24181-0.66034-0.15-1 0.15696-0.64579 0.76956-1.07418 1.43-1 0.5108 0.10261 0.98022 0.35297 1.35 0.72 0.25818 0.24317 0.49567 0.50742 0.71 0.79 0.16 0.2 0.2 0.28 0.38 0.51 0.18 0.23 0.3 0.46 0.21 0.12-0.07-0.5-0.19-1.34-0.36-2.09-0.13-0.57-0.16-0.66-0.28-1.09-0.12-0.43-0.19-0.79-0.32-1.28-0.11883-0.48143-0.2123-0.96877-0.28-1.46-0.12605-0.6283-0.03435-1.28079 0.26-1.85 0.34939-0.32863 0.86193-0.41537 1.3-0.22 0.4406 0.32534 0.7691 0.77965 0.94 1.3 0.26207 0.64039 0.43696 1.31306 0.52 2 0.16 1 0.47 2.46 0.48 2.76 0-0.37-0.07-1.15 0-1.5 0.06935-0.36488 0.32296-0.66769 0.67-0.8 0.29781-0.09137 0.61285-0.11192 0.92-0.06 0.31004 0.06482 0.58466 0.24315 0.77 0.5 0.23168 0.58339 0.36026 1.2026 0.38 1.83 0.02678-0.54941 0.12081-1.09347 0.28-1.62 0.1671-0.23545 0.41113-0.40521 0.69-0.48 0.33059-0.06044 0.66941-0.06044 1 0 0.27109 0.09063 0.50824 0.26152 0.68 0.49 0.21177 0.53035 0.33996 1.09034 0.38 1.66 0 0.14 0.07-0.39 0.29-0.74 0.11432-0.3394 0.40103-0.59203 0.75213-0.66273 0.35109-0.07069 0.71323 0.05129 0.95 0.32 0.23677 0.26871 0.3122 0.64332 0.19787 0.98273 0 0.65 0 0.62 0 1.06 0 0.44 0 0.83 0 1.2-0.03644 0.58518-0.11666 1.16681-0.24 1.74-0.17403 0.50712-0.41625 0.9882-0.72 1.43-0.48555 0.53996-0.88674 1.15018-1.19 1.81-0.07524 0.3278-0.10884 0.66379-0.1 1-0.001 0.31063 0.03935 0.62002 0.12 0.92-0.40886 0.04322-0.82114 0.04322-1.23 0-0.39-0.06-0.87-0.84-1-1.08-0.06432-0.12887-0.19597-0.2103-0.34-0.2103-0.14403 0-0.27568 0.08143-0.34 0.2103-0.22 0.38-0.71 1.07-1.05 1.11-0.67 0.08-2.05 0-3.14 0 0 0 0.18-1-0.23-1.36-0.41-0.36-0.83-0.78-1.14-1.06l-0.84-0.96z",
+                  "fillRule": "evenodd",
+                  "width": 23.99354362487793,
+                  "height": 25.51460838317871,
+                  "stroke": {
+                    "align": "center",
+                    "thickness": 1.25,
+                    "join": "round",
+                    "cap": "round",
+                    "fill": "#000000ff"
+                  }
+                },
+                {
+                  "type": "path",
+                  "id": "qNMLE",
+                  "x": 17.722768783569336,
+                  "y": 14.355348587036133,
+                  "name": "Shape",
+                  "geometry": "M0.75 3.82589l0-3.45178c0-0.20661-0.16789-0.37411-0.375-0.37411-0.20711 0-0.375 0.16749-0.375 0.37411l0 3.45178c0 0.20662 0.16789 0.37411 0.375 0.37411 0.20711 0 0.375-0.16749 0.375-0.37411z",
+                  "fill": "#000000ff",
+                  "width": 1.25,
+                  "height": 7,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1.6666667461395264
+                  }
+                },
+                {
+                  "type": "path",
+                  "id": "c2tVb",
+                  "x": 14.389435768127441,
+                  "y": 14.355348587036133,
+                  "name": "Shape",
+                  "geometry": "M0.76999 3.82463l-0.02-3.45356c-0.00119-0.20612-0.17005-0.37225-0.37715-0.37106-0.2071 0.00119-0.37403 0.16925-0.37283 0.37536l0.02 3.45356c0.00119 0.20612 0.17005 0.37225 0.37715 0.37106 0.2071-0.00119 0.37403-0.16925 0.37283-0.37536z",
+                  "fill": "#000000ff",
+                  "width": 1.2833330631256104,
+                  "height": 6.999999046325684,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1.6666667461395264
+                  }
+                },
+                {
+                  "type": "path",
+                  "id": "jD3A3",
+                  "x": 11.056102752685547,
+                  "y": 14.355348587036133,
+                  "name": "Shape",
+                  "geometry": "M0.00001 0.37899l0.02 3.44641c0.00121 0.20809 0.17008 0.3758 0.37718 0.37459 0.2071-0.00121 0.37401-0.17089 0.3728-0.37898l-0.02-3.44641c-0.00121-0.20809-0.17008-0.3758-0.37718-0.37459-0.2071 0.00121-0.37401 0.17089-0.3728 0.37898z",
+                  "fill": "#000000ff",
+                  "width": 1.2833335399627686,
+                  "height": 6.999999046325684,
+                  "stroke": {
+                    "align": "inside",
+                    "thickness": 1.6666667461395264
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
