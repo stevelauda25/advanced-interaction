@@ -1,0 +1,22 @@
+.staggered-stack {
+  position: relative;
+  width: 600px;
+  height: 720px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.stack {
+  position: relative;
+}
+
+.stack-layer {
+  position: absolute;
+  left: 0;
+  /* width/height set inline per variant */
+  transform: translate3d(var(--dx, 0px), 0, 0);
+  will-change: transform;
+  pointer-events: none;
+  user-select: none;
+}
